@@ -23,9 +23,10 @@ The following are the step-by-step instructions for setting up a multi-node Kube
 
 Run the following commands:
 
-```bash
+
 sudo apt-get update
 sudo apt install apt-transport-https curl -y
 
-### Installation Steps
+## Installation Steps
+
 
