@@ -27,7 +27,7 @@ Run the following commands:
 sudo apt-get update
 sudo apt install apt-transport-https curl -y
 
-Install containerd
+### Install containerd
 To install Containerd, use the following commands:
 
 bash
@@ -38,7 +38,7 @@ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o 
 
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 
-sudo apt-get update
+sudo apt-get updatezz
 sudo apt-get install containerd.io -y
 Create containerd configuration
 Next, create the containerd configuration file using the following commands:
